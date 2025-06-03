@@ -6,7 +6,6 @@ from tkinter import filedialog
 import argparse
 import pandas as pd
 import datetime as dt
-timestamp = dt.datetime.now()
 
 
 def get_unique_db_path(base_path):
